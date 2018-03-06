@@ -7,11 +7,20 @@ Details
 
 ## How to setup and start the App
 
-* git clone git@github.com:git@github.com:code-in-time/phone-book-test.gitt
+* git clone <git@github.com:git@github.com:code-in-time/phone-book-test.git>
 * cd phone-book-test
 * npm install
 * npm start
 
 ## Planning notes are here
 
-- Doc/Planning/planningPhoneBook.png
+* Doc/Planning/planningPhoneBook.png
+
+## Technogolgies used
+
+* create-react-app
+* react
+* react-redux
+* HTML
+* sass
+* bootstrap

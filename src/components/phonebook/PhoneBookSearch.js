@@ -7,8 +7,8 @@ import { actionPhoneBookSearch } from '../../actions/phoneBookActions';
 class PhoneBookSearch extends Component {
   render() {
     return (
-      <div className="PhoneBookEntryAdd card card-body bg-light">
-        <h3>Search</h3>
+      <div className="PhoneBookEntryAdd card card-body bg-light h_height-100percent">
+        <h5>Search</h5>
         <div className="row">
           <div className="col">
             <input
@@ -16,7 +16,7 @@ class PhoneBookSearch extends Component {
               onChange={e => this.props.actionPhoneBookSearch(e.target.value)}
               placeholder="enter a searm term here"
               type="text"
-              style={{ width: '100%' }}
+              className="h_width-100percent"
             />
           </div>
         </div>

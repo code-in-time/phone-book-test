@@ -35,23 +35,34 @@ class PhoneBookEntryAdd extends Component {
     this.props.actionPhoneBookEntryAdd(this.state.name, this.state.phoneNumber);
     this.setState({
       name: '',
-      phoneNumber: ''
+      phoneNumber: '',
     });
   }
 
   render() {
     return (
       <div className="PhoneBookEntryAdd card card-body bg-light">
-        <h3>Add a new entry to the Phone Book</h3>
+        <h5>Add a new entry to the Phone Book</h5>
         <div className="row">
-          <div className="col">
+          <div className="col-sm-6">
             <input maxLength="10" value={this.state.name} onChange={this.onChangeInputName} placeholder="name" type="text" style={{ width: '100%' }} />
-            <input className="h_noSpinnerOnInput" maxLength="10" value={this.state.phoneNumber} onChange={this.onChangeInputPhoneNumber} placeholder="phoneNumber" type="number" pattern="^[0-9]" min="0" style={{ width: '100%' }} />
           </div>
-          <div className="col">
+          <div className="col-sm-6">
+            <input
+              className="h_noSpinnerOnInput h_width-100percent"
+              value={this.state.phoneNumber}
+              onChange={this.onChangeInputPhoneNumber}
+              placeholder="phoneNumber"
+              type="number"
+              pattern="^[0-9]"
+            />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-12">
             <button
               onClick={() => this.clickAddBtn()}
-              className="btn btn-primary"
+              className="btn btn-primary h_width-100percent"
               disabled={this.state.phoneNumber === '' || this.state.name === ''}
             >add
             </button>

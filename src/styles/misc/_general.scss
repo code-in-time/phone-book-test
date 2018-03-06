@@ -1,6 +1,28 @@
+html {
+  height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
     @extend %fontPrimary;
+    height: 100%;
+    width: 100%;
   }
+
+div#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+input {
+  width: 100%;
+  padding: 4px;
+  margin: 8px 0;
+  @extend %box-shadow-primary;
+  border-radius:4px;
+}
 
