@@ -17,7 +17,6 @@ import './styles/index.css';
 import App from './components/App';
 
 // TODO: Turn redux devtools off for production using an environment variable.
-// const store = createStore(combineReducers({ noteReducer }), {}, applyMiddleware(createLogger()));
 /* eslint-disable no-underscore-dangle */
 const store = createStore(
   rootReducer,

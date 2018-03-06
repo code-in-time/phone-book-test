@@ -1,4 +1,4 @@
-import { add, logger } from './general';
+import { logger } from './general';
 
 it('console.log the text "hello"', () => {
   console.log = jest.fn();

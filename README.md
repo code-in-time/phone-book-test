@@ -24,3 +24,8 @@ Details
 * HTML
 * sass
 * bootstrap
+
+### NOTE
+
+* Redux dev tools are turned on
+* There are no API calls in this App
