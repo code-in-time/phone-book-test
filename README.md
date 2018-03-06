@@ -1,14 +1,17 @@
-# reactjs-notes-list
+# Phone Book test
 
-I am learning how to use react and redux and styling with sass
+Details
 
-## How start the App
+* You are able to add a new name and number to the phone book.
+* You are able to filter the entries of the phone book.
 
-- git clone git@github.com:code-in-time/reactjs-notes-list.git
-- cd reactjs-notes-list
-- npm install
-- npm start
+## How to setup and start the App
+
+* git clone git@github.com:git@github.com:code-in-time/phone-book-test.gitt
+* cd phone-book-test
+* npm install
+* npm start
 
 ## Planning notes are here
 
-- Doc/Planning/Planning_a_notes_list_REDUX.png
+- Doc/Planning/planningPhoneBook.png
