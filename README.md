@@ -7,7 +7,7 @@ Details
 
 ## How to setup and start the App
 
-* git clone <git@github.com:git@github.com:code-in-time/phone-book-test.git>
+* git clone git@github.com:git@github.com:code-in-time/phone-book-test.git
 * cd phone-book-test
 * npm install
 * npm start
@@ -29,3 +29,6 @@ Details
 
 * Redux dev tools are turned on
 * There are no API calls in this App
+* This was build using chrome Version 64.0.3282.186 (Official Build) (64-bit)
+* This was build using node v9.5.0
+* This was build using npm 5.6.0
