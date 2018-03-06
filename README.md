@@ -7,7 +7,7 @@ Details
 
 ## How to setup and start the App
 
-* git clone git@github.com:git@github.com:code-in-time/phone-book-test.git
+* git clone git@github.com:code-in-time/phone-book-test.git
 * cd phone-book-test
 * npm install
 * npm start
