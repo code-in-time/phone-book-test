@@ -8,10 +8,11 @@ class PhoneBookEntryDataDisplay extends Component {
    * @param {string} searchTermFilter Test that is being searched
    */
   buildRowData(searchTermFilter) {
+    const patt = new RegExp(searchTermFilter);
     const result = this.props.phoneBookReducerData.map((item, i) => {
-      // This the the filter check.
+      // This is the filter check.
       // If the phoneNumber or the name matched then show the row,
-      if (item.name === searchTermFilter || item.phoneNumber === searchTermFilter || searchTermFilter === '') {
+      if (patt.test(item.name) || patt.test(item.phoneNumber) || searchTermFilter === '') {
         return (
           <tr key={i}>
             <td>{item.name}</td>

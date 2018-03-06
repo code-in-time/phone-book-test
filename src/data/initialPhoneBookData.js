@@ -5,11 +5,11 @@ export default {
   // The data for the phonebook.
   data: [
     {
-      name: 'fred',
+      name: 'Fred',
       phoneNumber: '021123456',
     },
     {
-      name: 'harry',
+      name: 'Harry',
       phoneNumber: '086327878',
     },
   ],
