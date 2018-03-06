@@ -11,6 +11,7 @@ Details
 * cd phone-book-test
 * npm install
 * npm start
+* http://localhost:3000/
 
 ## Planning notes are here
 
