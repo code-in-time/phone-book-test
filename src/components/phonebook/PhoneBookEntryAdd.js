@@ -42,7 +42,7 @@ class PhoneBookEntryAdd extends Component {
   render() {
     return (
       <div className="PhoneBookEntryAdd card card-body bg-light">
-        <h5>Add a new entry to the Phone Book</h5>
+        <h5 className="h_titleShadow">Add a new entry to the Phone Book</h5>
         <div className="row">
           <div className="col-sm-6">
             <input maxLength="10" value={this.state.name} onChange={this.onChangeInputName} placeholder="name" type="text" style={{ width: '100%' }} />
@@ -64,7 +64,7 @@ class PhoneBookEntryAdd extends Component {
               onClick={() => this.clickAddBtn()}
               className="btn btn-primary h_width-100percent"
               disabled={this.state.phoneNumber === '' || this.state.name === ''}
-            >add
+            ><i className="fa fa-download" />
             </button>
           </div>
         </div>

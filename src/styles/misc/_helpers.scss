@@ -18,3 +18,7 @@ input.h_noSpinnerOnInput::-webkit-inner-spin-button {
 .h_height-100percent {
     height: 100%;
 }
+
+.h_titleShadow {
+    @extend %text-shadow-primary;
+}

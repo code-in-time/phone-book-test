@@ -8,7 +8,7 @@ class PhoneBookSearch extends Component {
   render() {
     return (
       <div className="PhoneBookEntryAdd card card-body bg-light h_height-100percent">
-        <h5>Search</h5>
+        <h5 className="h_titleShadow">Search</h5>
         <div className="row">
           <div className="col">
             <input
